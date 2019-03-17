@@ -40,46 +40,48 @@ class App extends Component {
   render() {
     const { key } = this.state;
     return (
-      <div>
+      <div className="container">
         <header>
           <h1>Drum Machine</h1>
         </header>
-        <div className="keys">
-          <div className={`key ${key === "a" ? "active" : ""}`}>
-            <kbd>A</kbd>
-            <span>Hit Hat</span>
-          </div>
-          <div className={`key ${key === "s" ? "active" : ""}`}>
-            <kbd>S</kbd>
-            <span>Kick</span>
-          </div>
-          <div className={`key ${key === "d" ? "active" : ""}`}>
-            <kbd>D</kbd>
-            <span>Snare</span>
-          </div>
-          <div className={`key ${key === "f" ? "active" : ""}`}>
-            <kbd>F</kbd>
-            <span>Hit Hat</span>
-          </div>
-          <div className={`key ${key === "g" ? "active" : ""}`}>
-            <kbd>G</kbd>
-            <span>Crash</span>
-          </div>
-          <div className={`key ${key === "h" ? "active" : ""}`}>
-            <kbd>H</kbd>
-            <span>Tom</span>
-          </div>
-          <div className={`key ${key === "j" ? "active" : ""}`}>
-            <kbd>J</kbd>
-            <span>Tom</span>
-          </div>
-          <div className={`key ${key === "k" ? "active" : ""}`}>
-            <kbd>K</kbd>
-            <span>Tom</span>
-          </div>
-          <div className={`key ${key === "l" ? "active" : ""}`}>
-            <kbd>L</kbd>
-            <span>Ride</span>
+        <div className="keys-container">
+          <div className="keys">
+            <div className={`key ${key === "a" ? "active" : ""}`}>
+              <kbd>A</kbd>
+              <span>Hit Hat</span>
+            </div>
+            <div className={`key ${key === "s" ? "active" : ""}`}>
+              <kbd>S</kbd>
+              <span>Kick</span>
+            </div>
+            <div className={`key ${key === "d" ? "active" : ""}`}>
+              <kbd>D</kbd>
+              <span>Snare</span>
+            </div>
+            <div className={`key ${key === "f" ? "active" : ""}`}>
+              <kbd>F</kbd>
+              <span>Hit Hat</span>
+            </div>
+            <div className={`key ${key === "g" ? "active" : ""}`}>
+              <kbd>G</kbd>
+              <span>Crash</span>
+            </div>
+            <div className={`key ${key === "h" ? "active" : ""}`}>
+              <kbd>H</kbd>
+              <span>Tom</span>
+            </div>
+            <div className={`key ${key === "j" ? "active" : ""}`}>
+              <kbd>J</kbd>
+              <span>Tom</span>
+            </div>
+            <div className={`key ${key === "k" ? "active" : ""}`}>
+              <kbd>K</kbd>
+              <span>Tom</span>
+            </div>
+            <div className={`key ${key === "l" ? "active" : ""}`}>
+              <kbd>L</kbd>
+              <span>Ride</span>
+            </div>
           </div>
         </div>
       </div>
