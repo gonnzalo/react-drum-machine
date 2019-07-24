@@ -15,7 +15,7 @@ To run locally in development mode please follows this guide:
 ```shell
 git clone https://github.com/gonnzalo/react-drum-machine
 cd react-drum-machine/
-git install
+npm install
 ```
 
 2- Runs the app in development mode.
